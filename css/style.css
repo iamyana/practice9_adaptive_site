@@ -1,0 +1,119 @@
+@import url(reset.css);
+header {
+	width: 100%;
+	height: 100px;
+	background-color:#0000FF;
+}
+.TXheader {
+padding-top: 35px;
+padding-left: 30px;
+font-family: Helvetica;
+font-size: 25px;
+line-height: 29px;
+/* identical to box height */
+color: #FFFFFF;
+}
+main {
+	width: 100%;
+	height: 824px;
+}
+.columns {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+margin-top: 82px;
+margin-left: 5px;
+margin-right: 10px;
+font-family: Helvetica;
+font-size: 25px;
+color: #000000;
+}
+.columns2{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+flex-wrap: wrap;
+margin-top: 0px;
+margin-left: 5px;
+margin-right: 10px;
+font-family: Helvetica;
+font-size: 25px;
+color: #000000;
+}
+.column1{
+width: 330px;
+height: 165px;
+border: 5px solid #000000;
+box-sizing: border-box;
+padding-top: 35px;
+padding-left: 15px;
+}
+.column2{
+width: 330px;
+height: 165px;
+margin-top: 10px;
+border: 5px solid #000000;
+box-sizing: border-box;
+padding-top: 35px;
+padding-left: 15px;
+}
+.column3{
+width: 330px;
+height: 165px;
+margin-top: 10px;
+border: 5px solid #000000;
+box-sizing: border-box;
+padding-top: 35px;
+padding-left: 15px;
+}
+.column4{
+width: 330px;
+height: 165px;
+margin-top: 10px;
+border: 5px solid #000000;
+box-sizing: border-box;
+padding-top: 35px;
+padding-left: 15px;
+}
+footer {
+	width:100%;
+	height: 100px;
+	background-color:#0000FF;
+}
+
+@media screen and (min-width: 960px) {
+.columns{
+	margin-left: 110px;
+	flex-direction: row;
+	font-size: 50px;
+}
+.columns2{
+margin-top: 10px;
+margin-left: 110px;
+flex-direction: row;
+font-size: 50px;
+}
+.column1{
+	width: 600px;
+    height: 300px;
+}
+.column2 {
+	width: 600px;
+    height: 300px;
+	margin-left: 10px;
+	margin-top: 0px;
+}
+.column3{
+	width: 600px;
+    height: 300px;
+}
+.column4 {
+	width: 600px;
+    height: 300px;
+	margin-left: 10px;
+}
+}
+
